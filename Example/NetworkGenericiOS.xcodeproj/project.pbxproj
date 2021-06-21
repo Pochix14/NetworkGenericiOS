@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* NetworkGenericiOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkGenericiOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		748B326D9D2B1A3F9D6B2EE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		77CA72F6E0A134BF5312643C /* NetworkGenericiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetworkGenericiOS.podspec; path = ../NetworkGenericiOS.podspec; sourceTree = "<group>"; };
+		748B326D9D2B1A3F9D6B2EE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		77CA72F6E0A134BF5312643C /* NetworkGenericiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NetworkGenericiOS.podspec; path = ../NetworkGenericiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		947C80663C86481958B2EC16 /* Pods_NetworkGenericiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkGenericiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE6DDA89ED01A350858088D /* Pods_NetworkGenericiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkGenericiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7117A8A819AAFE526182E84 /* Pods-NetworkGenericiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkGenericiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-NetworkGenericiOS_Example/Pods-NetworkGenericiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D877B88CEA5F6770DE633F51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D877B88CEA5F6770DE633F51 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				3D2A648135C29A06AE76023F /* Pods-NetworkGenericiOS_Tests.debug.xcconfig */,
 				10222E705D8F79883A7B5B00 /* Pods-NetworkGenericiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

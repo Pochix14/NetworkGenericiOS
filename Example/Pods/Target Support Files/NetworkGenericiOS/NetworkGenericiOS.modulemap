@@ -1,0 +1,6 @@
+framework module NetworkGenericiOS {
+  umbrella header "NetworkGenericiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - NetworkGenericiOS (0.1.0)
+
+DEPENDENCIES:
+  - NetworkGenericiOS (from `../`)
+
+EXTERNAL SOURCES:
+  NetworkGenericiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NetworkGenericiOS: e799af575b9ea7e60b3ba73c76c48fc9b5c45ce8
+
+PODFILE CHECKSUM: c0698b8464e8482bed6aeed940e68a93b2805c6f
+
+COCOAPODS: 1.10.1

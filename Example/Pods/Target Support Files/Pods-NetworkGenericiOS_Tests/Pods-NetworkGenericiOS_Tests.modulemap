@@ -1,0 +1,6 @@
+framework module Pods_NetworkGenericiOS_Tests {
+  umbrella header "Pods-NetworkGenericiOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
